@@ -4,13 +4,17 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "repository": {
-    "type":"git",
+    "type": "git",
     "url": "https://github.com/RodrigoFMuniz/electron-first-steps.git"
   },
   "keywords": [],
   "author": "Rodrigo Muniz",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^24.0.0"
+  }
 }
